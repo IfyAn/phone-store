@@ -8,7 +8,7 @@ export default class Details extends Component {
     render() {
         return (
            <ProductConsumer>
-                {value=>{ const { id, company, info, title, img, price, inCart  }= value.detailProduct;
+                {value=>{ const { id, company, info, title, img, price, inCart }= value.detailProduct;
                     return( 
                         <div className="container py-5">
                             {/* titlt */}

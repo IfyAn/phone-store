@@ -73,8 +73,8 @@ export const storeProducts=[
     }
 ]
 
-export const detailProduct= {
-        id: 1,
+export const detailProduct= [
+      {  id: 1,
         title: 'Google Pixel -Black',
         img: 'img/product-1.jpg',
         price: 10,
@@ -83,4 +83,5 @@ export const detailProduct= {
         inCart: false,
         total: 0,
         count: 0
-    }
+      }
+]

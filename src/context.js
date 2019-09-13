@@ -24,6 +24,7 @@ const ProductContext=React.createContext();
 
      setProducts=()=>{
         let tempProducts=[];
+        console.log(storeProducts)
         storeProducts.forEach(item=>{
             const singleItem={...item};
             tempProducts=[...tempProducts, singleItem];
